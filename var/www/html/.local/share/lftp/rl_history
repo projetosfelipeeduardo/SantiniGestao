@@ -1,0 +1,8 @@
+ 1710521343
+lftp -u app-santinigestaoagro-com-br,AT/BW=+Yx@1a0:j app-santinigestaoagro-com-br.umbler.net
+ 1710521405
+ls
+ 1710521424
+ls: Fatal error: Certificate verification: Not trusted (C5:59:22:82:D1:48:AA:5D:                                                                                        62:28:71:82:FF:AE:A0:
+ 1710521433
+exit

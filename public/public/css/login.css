@@ -1,0 +1,129 @@
+#login-button {
+    border-radius: 20px;
+}
+
+#card {
+    box-shadow:
+        0 0 30px 0px #064236;
+    /* inner white */
+}
+
+.login-card-body {
+    border-radius: 20px;
+}
+
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    5% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+
+
+
+#login-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 36pt;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(000, 000, 000, 0.5);
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+    -webkit-user-select: none;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+
+/* /// */
+
+#login-button {
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 180px;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #064236, #064236, #064236, #064236);
+    background-size: 400%;
+    border-radius: 30px;
+}
+
+#login-button:hover {
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+#login-button:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #ff3e3e, #ff3e3e, #ff0000);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#login-button:hover:before {
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 4s linear infinite;
+}
+
+/*
+
+   */
